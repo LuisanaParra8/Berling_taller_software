@@ -268,7 +268,10 @@ header{
   border:1px solid var(--border);background:var(--navy-2);color:#dce3eb;
   padding:10px 14px;border-radius:9px;cursor:pointer;
 }
-.filter.active,.filter:hover{background:var(--white);color:var(--dark)}
+.filter.active,.filter:hover{
+  background:var(--white);
+  color:var(--dark)
+}
 
 .product-detail{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;padding:55px 0 80px}
 .detail-img{border-radius:18px;aspect-ratio:4/5;object-fit:cover}
